@@ -18,6 +18,7 @@ To install the required dependencies, enter the repository directory and run:
 pip install -r requirements.txt
 
 ```
+Please note, if you’re using a specific GPU setup (e.g., CUDA), ensure the version of torch matches your system’s CUDA version.
 
 ## Curated Demo
 
