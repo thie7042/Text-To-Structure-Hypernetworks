@@ -22,7 +22,7 @@ Please note, if you’re using a specific GPU setup (e.g., CUDA), ensure the ver
 
 ## Curated Demo
 
-The proposed hypernetworks are extremely memory efficient. To demonstrate this, a simple design task has been provided under "example", in which the hypernetwork wights and demo data have been curated to a memory footprint under 30 MB. 
+The proposed hypernetworks are extremely memory efficient. To demonstrate this, a simple design task has been provided under "example", in which the hypernetwork weights and demo data have been curated to a memory footprint under 30 MB. 
 This example also provides a fine-tuning process for BERT-based Named Entity Recognition, to extract the necessary design parameters for the hypernetwork. These scripts can be found within the example folder.
 
 The example demo provided within this repository is a simple example of 2D reconstruction, using a base dataset consisting of cantilevered trusses. This has been packaged to allow the entire demo to fit within a single git repository. Applications extend beyond this example, including complex 2D and 3D structural design tasks.
