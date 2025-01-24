@@ -12,7 +12,7 @@ The proposed methodology consists of three distinct signal-processing blocks; th
 ![Architecture](https://github.com/user-attachments/assets/a22be8cc-0cbb-403f-94a3-8c8f732ddae3)
 
 ## Requirements
-To install the required dependencies, enter the repository directory and run:
+To install the required dependencies, run:
 
 ```bash
 pip install -r requirements.txt
