@@ -41,5 +41,19 @@ The example demo provided within this repository is a simple example of 2D recon
 
 **Cantilevered SSB**: Solid Isotropic Material with Penalization dataset.
 
+
 <img src="https://github.com/user-attachments/assets/03547ebb-ba23-4675-a228-b870f0c222f4" alt="figure" width="600">
 
+## 3D design examples
+
+**Truss Design**: Conditioning truss variations.
+
+<img src="https://github.com/user-attachments/assets/53a6188e-340b-4372-85a3-1b0ee71ff6ee" alt="figure" width="600">
+
+**Gridshell Design**: GA optimised gridshell dataset.
+
+<img src="https://github.com/user-attachments/assets/90a1f55b-e393-49aa-8a63-d94db3016e72" alt="figure" width="590">
+
+**Ensemble Bridge Design**: Concrete girder bridge dataset.
+
+<img src="https://github.com/user-attachments/assets/612ada9b-5613-418a-8f4b-f9d7c12939d3" alt="figure" width="600">
