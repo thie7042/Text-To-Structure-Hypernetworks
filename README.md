@@ -23,20 +23,23 @@ Please note, if you’re using a specific GPU setup (e.g., CUDA), ensure the ver
 ## Curated Demo
 
 The proposed hypernetworks are extremely memory efficient. To demonstrate this, a simple design task has been provided under "example", in which the hypernetwork weights and demo data have been curated to a memory footprint under 30 MB. 
-This example also provides a fine-tuning process for BERT-based Named Entity Recognition, to extract the necessary design parameters for the hypernetwork. These scripts can be found within the example folder.
+This example also provides a fine-tuning process for BERT-based Named Entity Recognition, to extract the necessary design parameters for the hypernetwork. These scripts can be found within the example folder. Please note that units have been converted between the provided demo and the used figures.
 
 The example demo provided within this repository is a simple example of 2D reconstruction, using a base dataset consisting of cantilevered trusses. This has been packaged to allow the entire demo to fit within a single git repository. Applications extend beyond this example, including complex 2D and 3D structural design tasks.
 
 
-**Cantilevered SSB**: Solid Isotropic Material with Penalization dataset.
+**Cantilevered Truss**: Differential Evolution dataset.
 
-<img src="https://github.com/user-attachments/assets/03547ebb-ba23-4675-a228-b870f0c222f4" alt="figure" width="600">
+<img src="https://github.com/user-attachments/assets/1ec99297-7ffa-445f-9f42-9b6f08941b0f" alt="figure" width="580">
+
+## Additional 2D design examples
 
 **Cantilevered Truss**: Solid Isotropic Material with Penalization dataset.
 
 <img src="https://github.com/user-attachments/assets/70fdc09b-22d5-438f-a0ba-0132341ced2d" alt="figure" width="600">
 
-**Cantilevered Truss**: Differential Evolution dataset.
 
-<img src="https://github.com/user-attachments/assets/1ec99297-7ffa-445f-9f42-9b6f08941b0f" alt="figure" width="580">
+**Cantilevered SSB**: Solid Isotropic Material with Penalization dataset.
+
+<img src="https://github.com/user-attachments/assets/03547ebb-ba23-4675-a228-b870f0c222f4" alt="figure" width="600">
 
