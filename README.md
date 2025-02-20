@@ -14,27 +14,47 @@ The proposed methodology consists of three distinct signal-processing blocks; th
 
 ## Requirements
 
-Please ensure that you are using a version of python that is ≥ 3.9
-To install the required dependencies, enter the repository directory and run:
+Please ensure that your version of python is ≥ 3.9.
+To install the required dependencies, run:
 
 ```bash
 pip install -r requirements.txt
 
 ```
 
+Please note, if you’re using a specific GPU setup (e.g., CUDA), ensure the version of torch matches your system’s CUDA version.
+
 ## Curated Demo
 
-The proposed hypernetworks are extremely memory efficient. To demonstrate this, a simple design task has been provided under "example", in which the hypernetwork wights and demo data have been curated to a memory footprint under 30 MB.
-This example also provides a fine-tuning process for BERT-based Named Entity Recognition, to extract the necessary design parameters for the hypernetwork. These scripts can be found within the example folder.
+The proposed hypernetworks are extremely memory efficient. To demonstrate this, a simple design task has been provided under "example", in which the hypernetwork weights and demo data have been curated to a memory footprint under 30 MB.
+This example also provides a fine-tuning process for BERT-based Named Entity Recognition, to extract the necessary design parameters for the hypernetwork. These scripts can be found within the example folder. Please note that units have been converted between the provided demo and the used figures.
 
 The example demo provided within this repository is a simple example of 2D reconstruction, using a base dataset consisting of cantilevered trusses. This has been packaged to allow the entire demo to fit within a single git repository. Applications extend beyond this example, including complex 2D and 3D structural design tasks.
-
-**Cantilevered SSB and Truss**: Solid Isotropic Material with Penalization datasets.
-
-<img src="https://github.com/user-attachments/assets/03547ebb-ba23-4675-a228-b870f0c222f4" alt="figure" width="600">
-
-<img src="https://github.com/user-attachments/assets/70fdc09b-22d5-438f-a0ba-0132341ced2d" alt="figure" width="600">
 
 **Cantilevered Truss**: Differential Evolution dataset.
 
 <img src="https://github.com/user-attachments/assets/1ec99297-7ffa-445f-9f42-9b6f08941b0f" alt="figure" width="580">
+
+## Additional 2D design examples
+
+**Cantilevered Truss**: Solid Isotropic Material with Penalization dataset.
+
+<img src="https://github.com/user-attachments/assets/70fdc09b-22d5-438f-a0ba-0132341ced2d" alt="figure" width="600">
+
+**Cantilevered SSB**: Solid Isotropic Material with Penalization dataset.
+
+<img src="https://github.com/user-attachments/assets/03547ebb-ba23-4675-a228-b870f0c222f4" alt="figure" width="600">
+
+## 3D design examples
+
+**Truss Design**: Conditioning truss variations.
+
+<img src="https://github.com/user-attachments/assets/53a6188e-340b-4372-85a3-1b0ee71ff6ee" alt="figure" width="600">
+
+**Gridshell Design**: GA optimised gridshell dataset.
+
+<img src="https://github.com/user-attachments/assets/90a1f55b-e393-49aa-8a63-d94db3016e72" alt="figure" width="590">
+
+**Ensemble Bridge Design**: Concrete girder bridge dataset.
+
+<img src="https://github.com/user-attachments/assets/612ada9b-5613-418a-8f4b-f9d7c12939d3" alt="figure" width="600">
