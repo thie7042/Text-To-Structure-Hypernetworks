@@ -214,7 +214,7 @@ grid_points = torch.tensor(grid_points, dtype = torch.float32).to(device)
 save_path = relative_path + r"Text-To-Structure-Hypernetworks\example\weights\hypernetwork_DE_2D.pth"
 
 # Load state 
-hypernet.load_state_dict(torch.load(save_path))
+hypernet.load_state_dict(torch.load(save_path, map_location=device))
 
 num_batches = dataloader.__len__()
 

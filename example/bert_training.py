@@ -1,7 +1,6 @@
 import torch
 from transformers import BertTokenizer, BertForTokenClassification, AdamW
 from torch.utils.data import DataLoader, TensorDataset
-from tqdm import tqdm
 from torch.utils.data import Dataset, DataLoader
 from transformers import BertTokenizer, BertForTokenClassification, AdamW
 from torch.nn.utils.rnn import pad_sequence
